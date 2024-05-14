@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    border: 1px solid rgb(6, 8, 6);
+}
+
+nav img {
+    float: left;
+    width: 52px;
+}
+
+.menu {
+    background-color: rgb(94, 91, 91);
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    /* border: 1px solid rgb(0, 139, 86); */
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+
+/* #list1 {
+    background-color: red;
+    border-radius: 20%;
+} */
+
+#list1 {}
+
+.menu a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    /* this to remove the line under words*/
+
+}
+
+.menu a #list1 {
+    background-color: black;
+
+}
+
+.menu a:hover {
+    color: palevioletred;
+
+
+}
+
+.pg {
+    border-top: solid black;
+    margin-top: 40px;
+}
+
+section {
+    /* height: 50vh; */
+    text-align: center;
+}
+
+section img {
+    width: 250px;
+    border-radius: 30%;
+    height: 50vh;
+
+}
+
+.dark {
+    background-color: rgb(150, 141, 124);
+
+}
+
+/* .list {
+    border: solid green;
+    background-color: brown;
+} */
